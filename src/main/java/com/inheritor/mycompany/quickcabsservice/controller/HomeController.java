@@ -72,6 +72,7 @@ public class HomeController {
         String name = hsr.getParameter("name");
         String email = hsr.getParameter("email");
         String phone = hsr.getParameter("phone");
+		String uid="uid";
 
         CustomerDto customerDto = new CustomerDto();
         customerDto.setTitle(title);
